@@ -7,16 +7,13 @@
   <body>
     <header></header>
     <main>
-        <button id="abc">Click this button to trigger</button>
-    </main>
-    <footer></footer>
-    <style>
+        <h3 id="abc">Click to play</h3>
       html {
   height: 100%;
   width: 100%;
 }
 
-abc {
+h3 {
   color: #black;
   font-family: sans-serif;
   padding: 10px;
@@ -24,11 +21,13 @@ abc {
   background-color: #002aff;
   border-radius: 15px;
 }
-abc:hover {
+
+h3:hover {
   background-color: #0088ff;
   color: white;
 }
-    </style>
+    </main>
+    <footer></footer>
     <script>
         document.getElementById('abc').addEventListener('click', () => {
             const wnd = window.open('about:blank', '_blank', 'status=no,toolbar=no,location=no,directories=no,resisable=yes,srollbars=yes,width=1050,height=600');
