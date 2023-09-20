@@ -1,0 +1,20 @@
+      height: 100%;
+      width: 100%;
+    }
+
+    body {
+      background-color: black;
+    }
+
+    button {
+      color: #black;
+      font-family: sans-serif;
+      padding: 10px;
+      margin: 15px;
+      background-color: #002aff;
+    }
+
+    button:hover {
+      background-color: #0088ff;
+      color: white;
+    }
