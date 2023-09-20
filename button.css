@@ -6,7 +6,7 @@
       background-color: black;
     }
 
-    button {
+    abc {
       color: #black;
       font-family: sans-serif;
       padding: 10px;
@@ -14,7 +14,7 @@
       background-color: #002aff;
     }
 
-    button:hover {
+    abc:hover {
       background-color: #0088ff;
       color: white;
     }
